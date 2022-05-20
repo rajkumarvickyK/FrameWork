@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60" started-at="2022-04-11T14:51:04Z" finished-at="2022-04-11T14:51:04Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="Include.tc1()[pri:0, instance:org.testng.Include@159f197]" name="tc1" class="org.testng.Include"/>
+        <method signature="Include.tc3()[pri:-3, instance:org.testng.Include@159f197]" name="tc3" class="org.testng.Include"/>
+        <method signature="Include.tc4()[pri:-4, instance:org.testng.Include@159f197]" name="tc4" class="org.testng.Include"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Test" duration-ms="60" started-at="2022-04-11T14:51:04Z" finished-at="2022-04-11T14:51:04Z">
+      <class name="org.testng.Include">
+        <test-method status="PASS" signature="tc4()[pri:-4, instance:org.testng.Include@159f197]" name="tc4" duration-ms="12" started-at="2022-04-11T14:51:04Z" finished-at="2022-04-11T14:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc3()[pri:-3, instance:org.testng.Include@159f197]" name="tc3" duration-ms="1" started-at="2022-04-11T14:51:04Z" finished-at="2022-04-11T14:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.testng.Include@159f197]" name="tc1" duration-ms="1" started-at="2022-04-11T14:51:04Z" finished-at="2022-04-11T14:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.testng.Include -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
